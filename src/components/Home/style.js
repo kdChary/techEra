@@ -23,7 +23,7 @@ export const CoursesList = styled.ul`
   justify-content: space-between;
   flex-wrap: wrap;
   //   width: 95%;
-  @media (min-width: 1440px) {
+  @media (min-width: 1040px) {
     justify-content: flex-start;
   }
 `

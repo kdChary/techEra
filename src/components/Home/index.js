@@ -14,6 +14,7 @@ import {
   RetryBtn,
 } from './style'
 import CourseItem from '../CourseItem'
+import Header from '../Header'
 
 const apiStatusConstant = {
   initial: 'INITIAL',
@@ -114,7 +115,12 @@ class Home extends Component {
   }
 
   render() {
-    return <>{this.successView()}</>
+    return (
+      <>
+        <Header />
+        {this.successView()}
+      </>
+    )
   }
 }
 
